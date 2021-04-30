@@ -50,6 +50,8 @@
         font-size: 60px;
         line-height: 45px;
         animation: fade-enter-subtitle 1.5s;
+        display: inline-flex;
+        margin-left: 75px;
       }
 
       @keyframes fade-enter-hero {
@@ -75,10 +77,80 @@
           opacity: 1;
         }
       }
+
+      #nouns {
+        display: inline-block;
+        position: relative;
+        height: 45px;
+        width: 100%;
+      }
+
+      .noun {
+        animation: rotateWordsFirst 9s infinite 0.5s;
+        opacity: 0;
+        white-space: nowrap;
+        position: absolute;
+        bottom: 0;
+        text-align: left;
+        width: 100%;
+        left: 0;
+        line-height: 75px;
+        text-indent: 12px;
+      }
+
+      .noun:nth-of-type(2) {
+        animation-delay: 2s;
+      }
+
+      .noun:nth-child(3) {
+        animation-delay: 3.5s;
+      }
+      .noun:nth-child(4) {
+        animation-delay: 5s;
+      }
+      .noun:nth-child(5) {
+        animation-delay: 6.5s;
+      }
+      .noun:nth-child(6) {
+        animation-delay: 8s;
+      }
+
+      @keyframes rotateWordsFirst {
+        0% {
+          opacity: 1;
+          animation-timing-function: ease-in;
+          height: 0px;
+        }
+        8% {
+          opacity: 1;
+          height: 60px;
+        }
+        19% {
+          opacity: 1;
+          height: 60px;
+        }
+        25% {
+          opacity: 0;
+          height: 60px;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
     </style>
   </head>
   <body>
     <div id="hero">august</div>
-    <div id="subtitle">checking temperatures since 2021</div>
+    <div id="subtitle">
+      <div id="verb">serving</div>
+      <div id="nouns">
+        <div class="noun">school heroes</div>
+        <div class="noun">knee bandagers</div>
+        <div class="noun">temperature takers</div>
+        <div class="noun">pill counters</div>
+        <div class="noun">inhaler pumpers</div>
+        <div class="noun">vaccine mavens</div>
+      </div>
+    </div>
   </body>
 </html>
