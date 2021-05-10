@@ -1,0 +1,92 @@
+/* Colors
+green: #7BE0AD
+blue: #0D0D35 */
+body{
+  max-width: 1050px;
+  margin: auto;
+}
+
+nav img {
+  height: 5rem;
+  margin: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  float: right;
+  background-color: #7BE0AD;
+  color: #fff;
+  border-radius: 25%;
+  border: none;
+  text-align: center;
+  padding: .75rem;
+  margin-top: 2.5rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+main{
+  font-family: 'Playfair Display', serif;
+  background-image: url('./AugustWebsiteImage.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 640px;
+  margin: auto;
+}
+
+main h1 {
+  padding-top: 10rem;
+  font-size: 3.5rem;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+main p {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Open Sans Bold', serif;
+  width: 55%;
+  margin: auto;
+  text-align: center;
+}
+
+section{
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans Bold', serif;
+}
+.top{
+  height: 33%;
+  padding: 4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 59%;
+  margin: auto;
+  text-align: center;
+}
+
+.mid{
+  text-align: left;
+  width: 30%;
+  height: 33%;
+  margin-left: 7%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 4rem;
+}
+
+.mid p {
+  font-size: 1rem;
+}
+
+div .bottom{
+  font-family: 'Playfair Display', serif;
+  padding: 4rem;
+  font-size: 1.5rem;
+  margin: auto;
+  text-align: center;
+  background-color:#0D0D35 ;
+  color: #fff;
+}
+
