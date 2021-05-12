@@ -7,7 +7,7 @@ body {
 }
 
 nav img {
-  height: 5rem;
+  height: 4rem;
   margin: 1.5rem;
 }
 
@@ -59,7 +59,7 @@ section {
 
 section hr {
   width: 300px;
-  border-color: #e6f7ff;
+  border-color: #7BE0AD;
   border-width: 1px;
 }
 
@@ -87,6 +87,7 @@ section hr {
 }
 
 .mid h3 {
+   font-family: "Playfair Display", serif;
   margin-bottom: 0;
   margin-top: 0;
 }
