@@ -58,9 +58,11 @@ section {
 }
 
 section hr {
-  width: 300px;
-  border-color: #7BE0AD;
-  border-width: 1px;
+  height: 1px;
+    width: 300px;
+    /* Set the hr color */
+    color: #7BE0AD; /* old IE */
+    background-color: #7BE0AD; /* Modern Browsers */
 }
 
 .top {
@@ -80,6 +82,7 @@ section hr {
   margin-left: 15%;
   font-size: 2rem;
   padding: 4rem;
+  padding-bottom: 12rem;
 }
 
 .mid p {
