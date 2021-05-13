@@ -1,170 +1,57 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./AugustWebsiteSmLogo.png" />
+    <link href="./styling.CSS" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      rel="prefetch"
-      href="Gurajada-Regular.woff2"
-      as="font"
-      crossorigin="anonymous"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
     />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-D6SCV0QC7M"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-D6SCV0QC7M");
-    </script>
-
-    <style>
-      @font-face {
-        font-family: "Gurajada";
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: url(Gurajada-Regular.woff2) format("woff2");
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
-          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-          U+2212, U+2215, U+FEFF, U+FFFD;
-      }
-
-      body {
-        overflow: hidden;
-        font-family: "Gurajada";
-        width: 100%;
-        height: 100%;
-        color: #f6ed84; /* summer straw */
-        background-color: #3e60ab; /* denim */
-        cursor: default;
-        display: grid;
-        grid-template-rows: min-content min-content;
-        grid-template-columns: auto;
-        justify-content: space-around;
-        align-content: center;
-        row-gap: 24px;
-      }
-
-      #hero {
-        grid-row: 1;
-        grid-column: 1;
-        font-size: 300px;
-        line-height: 225px;
-        animation: fade-enter-hero 0.5s;
-        margin-top: -150px;
-      }
-
-      #subtitle {
-        grid-row: 2;
-        grid-column: 1;
-        font-size: 60px;
-        line-height: 45px;
-        animation: fade-enter-subtitle 1.5s;
-        display: inline-flex;
-        margin-left: 75px;
-      }
-
-      @keyframes fade-enter-hero {
-        0% {
-          opacity: 0;
-        }
-        25% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-      }
-
-      @keyframes fade-enter-subtitle {
-        0% {
-          opacity: 0;
-        }
-        50% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-      }
-
-      #nouns {
-        display: inline-block;
-        position: relative;
-        height: 45px;
-        width: 100%;
-      }
-
-      .noun {
-        animation: rotateWordsFirst 9s infinite 0.5s;
-        opacity: 0;
-        white-space: nowrap;
-        position: absolute;
-        bottom: 0;
-        text-align: left;
-        width: 100%;
-        left: 0;
-        line-height: 75px;
-        text-indent: 12px;
-      }
-
-      .noun:nth-of-type(2) {
-        animation-delay: 2s;
-      }
-
-      .noun:nth-child(3) {
-        animation-delay: 3.5s;
-      }
-      .noun:nth-child(4) {
-        animation-delay: 5s;
-      }
-      .noun:nth-child(5) {
-        animation-delay: 6.5s;
-      }
-      .noun:nth-child(6) {
-        animation-delay: 8s;
-      }
-
-      @keyframes rotateWordsFirst {
-        0% {
-          opacity: 1;
-          animation-timing-function: ease-in;
-          height: 0px;
-        }
-        8% {
-          opacity: 1;
-          height: 60px;
-        }
-        19% {
-          opacity: 1;
-          height: 60px;
-        }
-        25% {
-          opacity: 0;
-          height: 60px;
-        }
-        100% {
-          opacity: 0;
-        }
-      }
-    </style>
+    <title>August</title>
   </head>
   <body>
-    <div id="hero">august</div>
-    <div id="subtitle">
-      <div id="verb">serving</div>
-      <div id="nouns">
-        <div class="noun">school heroes</div>
-        <div class="noun">knee bandagers</div>
-        <div class="noun">temperature takers</div>
-        <div class="noun">pill counters</div>
-        <div class="noun">inhaler pumpers</div>
-        <div class="noun">vaccine mavens</div>
-      </div>
+    <header>
+      <nav>
+        <img src="./AugustWebsiteLogo-01.png" alt="August Logo" />
+        <a href="mailto:hello@augustschools.com">Get In Touch</a>
+      </nav>
+    </header>
+    <div>
+      <main>
+        <h1>
+          The Hub for<br />
+          Healthy Schools
+        </h1>
+        <p>
+          August empowers school healthcare providers with the first
+          comprehensive electronic record system to coordinate care and
+          streamline workflows.
+        </p>
+      </main>
+      <section>
+        <div class="top">
+              </div>
+        <hr />
+        <div class="mid">
+          <h3>Join Us</h3>
+          <p>
+            We’re growing our team. Engineers based in NYC can learn more here
+            or just get in touch. We’re also partnering with school care
+            providers and arranging an advisory board.
+          </p>
+        </div>
+        <div class="bottom">
+          <h2>
+            “We serve the heroes who care for 58 million children 6
+            hours a day ”
+          </h2>
+        </div>
+      </section>
+      <footer></footer>
     </div>
   </body>
 </html>
